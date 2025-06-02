@@ -20,16 +20,16 @@ export default function Footer() {
           <div className="basis-[20%]">
             <h3 className="font-bold text-[#CA8A04] mb-4">Enlaces rápidos</h3>
             <ul className="space-y-2 text-gray-600">
-              <Link href={"/inicio"}>
+              <Link href="/#inicio">
               <li className="font-semibold">Inicio</li>
               </Link>
-              <Link href={"/servicios"}>
+              <Link href="/#servicios">
               <li className="font-semibold">Servicios</li>
               </Link>
-              <Link href={"/galeria"}>
+              <Link href="/#galeria">
               <li className="font-semibold">Galería</li>
               </Link>
-              <Link href={"/contacto"}>
+              <Link href="/#contacto">
               <li className="font-semibold">Contacto</li>
               </Link>
             </ul>
